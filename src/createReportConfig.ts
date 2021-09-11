@@ -30,6 +30,7 @@ export default function createReportConfig(
       new HtmlWebpackPlugin({
         inject: "body",
         template: join(__dirname, "./report/index.ejs"),
+        title: "SARIF Report",
       }),
       new InlineChunkHtmlPlugin(HtmlWebpackPlugin, [/^main.js$/]),
     ],
