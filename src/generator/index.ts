@@ -1,5 +1,3 @@
-#!/usr/bin/env ts-node --transpile-only
-
 import { Command } from "commander";
 import generateReport from "./generateReport";
 
