@@ -1,5 +1,4 @@
 import { readFile, writeFile } from "fs/promises";
-import createTemplate from "./createTemplate";
 import sarifLogsToken from "../sarifLogsToken";
 
 export default async function generateReport(

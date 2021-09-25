@@ -4,8 +4,9 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "build": "webpack -c src/webpack.generator.ts",
     "dev": "webpack serve -c src/webpack.dev.ts",
-    "build": "webpack -c src/webpack.generator.ts"
+    "start": "ts-node src/generator/start"
   },
   "files": [
     "dist/"
