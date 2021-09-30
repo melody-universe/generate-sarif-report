@@ -1,4 +1,4 @@
-// Copied from https://raw.githubusercontent.com/microsoft/sarif-web-component/bb70f382f63c13440e31bd2c2d1984c49dee1d9a/docs-components/Index.scss
+/* Copied and manually transpiled from https://raw.githubusercontent.com/microsoft/sarif-web-component/bb70f382f63c13440e31bd2c2d1984c49dee1d9a/docs-components/Index.scss */
 
 html {
   height: 100%;
@@ -8,16 +8,16 @@ body {
   height: 100%;
   margin: 0;
   font: 14px "Segoe UI", sans-serif;
+}
 
-  main {
-    width: 100%;
-  }
+body main {
+  width: 100%;
+}
 
-  #app {
-    height: 100%;
-    display: flex;
-    flex-direction: column;
-  }
+body #app {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
 }
 
 ::-webkit-scrollbar {
@@ -26,16 +26,16 @@ body {
 }
 ::-webkit-scrollbar-thumb {
   background: hsla(0, 0, 0, 0.1);
-  &:hover {
-    background: hsla(0, 0, 0, 0.2);
-  }
+}
+::-webkit-scrollbar-thumb:hover {
+  background: hsla(0, 0, 0, 0.2);
 }
 
 pre {
   margin: 0;
 }
 
-// Matching GitHub style.
+/* Matching GitHub style. */
 code {
   font-family: "SFMono-Regular", Consolas, "Liberation Mono", Menlo, Courier,
     monospace;
@@ -44,12 +44,12 @@ code {
 button,
 input {
   font: inherit;
-} // Override user agent.
+} /* Override user agent. */
 
 .demoHeader {
   flex: 0 0 auto;
   padding: 15px;
   padding-bottom: 10px;
   display: flex;
-  border-bottom: 1px solid #efefef; // Match policy headers.
+  border-bottom: 1px solid #efefef; /* Match policy headers. */
 }
